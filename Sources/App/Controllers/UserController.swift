@@ -58,7 +58,7 @@ final class UserController: RouteCollection {
                                 tokenExpiration: jwt.expTime)
             
         }
-    }
+    }//Test
     
     func refreshToken(_ request: Request) throws -> JWTResponse {
         let jwt = try JWTHelper.refreshJWT(for: request)
